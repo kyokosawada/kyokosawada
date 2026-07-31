@@ -1,7 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f766e,100:14b8a6&height=190&section=header&text=Giusippi%20Apa&fontSize=52&fontColor=e6fffb&fontAlignY=36&desc=AI-forward%20engineer%20%C2%B7%20agents,%20retrieval%20and%20the%20systems%20that%20keep%20them%20honest&descSize=15&descAlignY=57" alt="" width="100%" />
 
 <p align="center">
-  <a href="https://portfolio-apa.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-portfolio--apa.vercel.app-14B8A6?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://apa-dev.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-portfolio--apa.vercel.app-14B8A6?style=flat-square&logo=netlify&logoColor=white" alt="Portfolio" /></a>
   <a href="mailto:giusippi.apaii@gmail.com"><img src="https://img.shields.io/badge/Email-giusippi.apaii%40gmail.com-0f766e?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <img src="https://img.shields.io/badge/Manila-Philippines-1f2937?style=flat-square&logo=googlemaps&logoColor=14B8A6" alt="Manila, Philippines" />
 </p>
