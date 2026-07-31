@@ -2,7 +2,7 @@
 
 AI-forward engineer in Manila. I build software **with** agents, and I build the parts that keep them honest.
 
-[Portfolio](https://portfolio-apa.vercel.app/) · [Email](mailto:giusippi.apaii@gmail.com)
+[Portfolio](https://apa-dev.netlify.app/) · [Email](mailto:giusippi.apaii@gmail.com)
 
 ## Now
 
