@@ -1,170 +1,56 @@
-<div align="center">
+<h1 align="center">Giusippi Apa</h1>
 
-# Giusippi Maria II Apa
+<p align="center">
+  <b>AI-forward engineer.</b> I build software <i>with</i> agents, and I build the systems that keep them honest.
+</p>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=1000&color=14B8A6&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;AI-Powered+Web+Applications;Mobile+App+Developer;Building+Scalable+Digital+Experiences" alt="Typing SVG" />
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-portfolio--apa.vercel.app-14B8A6?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-apa.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-giusippi.apaii@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:giusippi.apaii@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-kyokosawada-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kyokosawada)
-![Profile Views](https://komarev.com/ghpvc/?username=kyokosawada&color=14B8A6&style=flat-square&label=Profile+Views)
-
----
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kyokosawada&theme=github-compact&hide_border=true&bg_color=0d1117&color=14B8A6&line=14B8A6&point=ffffff)
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kyokosawada&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=14B8A6&ring=14B8A6&fire=14B8A6&currStreakLabel=8b949e&sideLabels=8b949e&currStreakNum=14B8A6&sideNums=14B8A6" alt="GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api?username=kyokosawada&show_icons=true&theme=github_dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=14B8A6&text_color=8b949e&icon_color=14B8A6" alt="GitHub Stats" />
-</div>
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kyokosawada&theme=github_dark&hide_border=true&layout=compact&bg_color=0d1117&title_color=14B8A6&text_color=8b949e&langs_count=8)
-
-</div>
+<p align="center">
+  <a href="https://portfolio-apa.vercel.app/">Portfolio</a> ·
+  <a href="mailto:giusippi.apaii@gmail.com">Email</a> ·
+  Manila, Philippines
+</p>
 
 ---
 
-## About Me
+Most of my work now sits in one place: **getting language models to do real work reliably, and proving it when they don't.**
 
-Full-Stack Developer building **AI-powered web applications** and **scalable digital experiences**. I work across the entire stack — from modern web frontends to mobile apps and backend systems — with a focus on integrating AI to solve real-world problems.
+Day to day that means production systems where a model is one component among validators, retries, review queues and reconciliation - not the whole answer. The interesting engineering is almost never the prompt. It is what happens when the output is wrong, stale, or unavailable, and how anyone finds out.
 
-**Core Expertise:**
-- AI-driven SaaS platforms with Google Gemini AI integration
-- Full-stack web development with Next.js, React, and Node.js
-- Mobile application development (Android & iOS)
-- Backend systems with Spring Boot and Go
+### How I work
 
----
-
-## Repository Highlights
-
-<div align="center">
-
-[![PocketPA](https://github-readme-stats.vercel.app/api/pin/?username=kyokosawada&repo=PocketPA&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=14B8A6&text_color=8b949e&icon_color=14B8A6)](https://github.com/kyokosawada/PocketPA)
-[![AI Analytics Dashboard](https://github-readme-stats.vercel.app/api/pin/?username=kyokosawada&repo=ai-analytics-dashboard&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=14B8A6&text_color=8b949e&icon_color=14B8A6)](https://github.com/kyokosawada/ai-analytics-dashboard)
-
-[![AI CRM Assistant](https://github-readme-stats.vercel.app/api/pin/?username=kyokosawada&repo=ai-crm-assistant&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=14B8A6&text_color=8b949e&icon_color=14B8A6)](https://github.com/kyokosawada/ai-crm-assistant)
-[![Mystica](https://github-readme-stats.vercel.app/api/pin/?username=kyokosawada&repo=Mystica&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=14B8A6&text_color=8b949e&icon_color=14B8A6)](https://github.com/kyokosawada/Mystica)
-
-[![AI Invoice Processor](https://github-readme-stats.vercel.app/api/pin/?username=kyokosawada&repo=ai-invoice-processor&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=14B8A6&text_color=8b949e&icon_color=14B8A6)](https://github.com/kyokosawada/ai-invoice-processor)
-[![Cooking Diaries](https://github-readme-stats.vercel.app/api/pin/?username=kyokosawada&repo=cooking-diaries&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=14B8A6&text_color=8b949e&icon_color=14B8A6)](https://github.com/kyokosawada/cooking-diaries)
-
-</div>
+- **Claude Code as a daily driver since January 2026.** Not a demo - it is how the work gets written, reviewed and shipped.
+- **Agents supervised, not trusted.** Isolated worktrees, one task per agent, an explicit review pass, and a human gate before anything lands.
+- **Grounded answers or none.** If a system can't cite the source it answered from, it should decline. I build the decline path first.
+- **Scheduled work over manual work.** Currently ~30 scheduled jobs in production across operations, marketing and reporting.
 
 ---
 
-## Featured Projects
+## Selected work
 
-### AI Analytics Dashboard
-[![Live Demo](https://img.shields.io/badge/Live-Demo-14B8A6?style=flat-square)](https://portfolio-apa.vercel.app/)
-[![Repository](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square)](https://github.com/kyokosawada/ai-analytics-dashboard)
+### [firstmate](https://github.com/kyokosawada/firstmate) · Shell
+An agent fleet you talk to through one interface. Spawns coding agents into isolated worktrees, supervises them, and refuses to tear down work that has not landed.
 
-Dataset analysis dashboard powered by **Gemini 2.5 Flash** — upload CSV, Excel, or JSON files and get AI-driven insights, visualizations, and reports instantly.
+The whole design question is *what an agent is not allowed to do*: it cannot merge without a human word, cannot discard uncommitted work, and cannot report a task complete without evidence. Multi-runtime, with the safety boundaries in one place rather than scattered through prompts.
 
-**Technology Stack:**
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white)
+### [rag-coach](https://github.com/kyokosawada/rag-coach) · TypeScript
+Retrieval-grounded assistant that **refuses questions outside its corpus** rather than guessing at them.
 
-**Key Features:**
-- AI-powered data analysis and pattern recognition
-- Interactive charts and visualizations with Recharts
-- Multi-format file support (CSV, Excel, JSON)
-- Real-time AI insights and recommendations
+The refusal is the feature. An assistant that answers everything is indistinguishable from one that answers nothing correctly, and the failure is silent - which makes it the expensive kind.
+
+### [orban-labs-challenge](https://github.com/kyokosawada/orban-labs-challenge) · Python · FastAPI
+Two services built to a brief in a fixed window: a notes API with search, and a URL shortener with expiry, click analytics and destination validation. Test-first, incremental commits, with the AI usage disclosed in the repo rather than hidden.
+
+### [gemini-slack-assistant](https://github.com/kyokosawada/gemini-slack-assistant) · TypeScript
+A chat-driven agent that reasons over a request and then *acts* - reading and sending against Gmail and Calendar from Slack. Socket Mode, so it holds a live connection rather than polling.
 
 ---
 
-### AI CRM Assistant
-[![Repository](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square)](https://github.com/kyokosawada/ai-crm-assistant)
+## Stack
 
-Contact management platform with **Kanban pipeline**, AI-powered lead scoring, and intelligent follow-up suggestions.
-
-**Technology Stack:**
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white)
+**Working in:** TypeScript · Python · Next.js · FastAPI · Node · Postgres / Supabase
+**Also shipped:** Java / Spring Boot · Kotlin · Go · Angular
+**Models & tooling:** Claude · Gemini · retrieval pipelines · scheduled workers · Vercel
 
 ---
 
-## Technology Stack
-
-### Frontend Development
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo" />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" height="40" alt="tailwindcss logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" />
-</div>
-
-### Backend Development
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="40" alt="go logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" alt="spring logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo" />
-</div>
-
-### Mobile Development
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="40" alt="kotlin logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" height="40" alt="swift logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react native logo" />
-</div>
-
-### Database & BaaS
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" height="40" alt="supabase logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="40" alt="firebase logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo" />
-</div>
-
-### Tools & Platforms
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" height="40" alt="vercel logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo" />
-</div>
-
----
-
-## Connect & Collaborate
-
-<div align="center">
-
-![Status](https://img.shields.io/badge/Status-Open_to_Opportunities-success?style=for-the-badge&logo=rocket&labelColor=0d1117&color=14B8A6)
-
-**Interested in:** Full-Stack Development • AI-Powered Applications • Mobile Development • Scalable Systems
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_My_Work-14B8A6?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-apa.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-Get_In_Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:giusippi.apaii@gmail.com)
-
-</div>
+<sub>BS Computer Science, De La Salle University. Currently building lead-management and local-SEO automation.</sub>
