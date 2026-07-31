@@ -22,7 +22,7 @@ Most of my work now sits in one place: getting language models to do real work r
 
 Claude Code has been my daily driver since **January 2026** - not a demo, it is how the work gets written, reviewed and shipped.
 
-Isolated worktrees, one task per agent, an explicit review pass, and a human gate before anything lands.
+Isolated branches, one task at a time, an explicit review pass, and my own read before anything lands. Speed is not the interesting part; knowing what was actually changed is.
 
 </td>
 <td width="50%" valign="top">
@@ -47,12 +47,14 @@ I build the decline path first. An assistant that answers everything is indistin
 <tr>
 <td width="50%" valign="top">
 
-#### [firstmate](https://github.com/kyokosawada/firstmate)
-<img src="https://img.shields.io/badge/Shell-89e051?style=flat-square&logo=gnubash&logoColor=black" alt="Shell" />
+#### UpRank &nbsp;<sub>current work · private</sub>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
 
-An agent fleet you talk to through one interface. Spawns coding agents into isolated worktrees, supervises them, and refuses to tear down work that has not landed.
+Local-SEO and lead-management platform. **~30 scheduled jobs in production** across operations, marketing and reporting.
 
-The whole design question is *what an agent is not allowed to do*: it cannot merge without a human word, cannot discard uncommitted work, and cannot report a task complete without evidence.
+The part I'd want to talk about is the generated content pipeline: validators reject a bad draft, the retry carries the reason for the rejection back into the next attempt, anything still failing is held for a human instead of published, and a daily reconcile records what actually happened rather than what we assumed.
 
 </td>
 <td width="50%" valign="top">
@@ -69,13 +71,12 @@ The refusal is the feature. Most of the work went into the boundary - deciding w
 <tr>
 <td width="50%" valign="top">
 
-#### [orban-labs-challenge](https://github.com/kyokosawada/orban-labs-challenge)
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+#### [lead-approval-bot](https://github.com/kyokosawada/lead-approval-bot)
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
 
-Two services built to a brief in a fixed window: a notes API with search, and a URL shortener with expiry, click analytics and destination validation.
+An inbound lead becomes an Approve / Deny card in Slack, and the decision sends the reply email.
 
-Test-first, incremental commits, with the AI usage disclosed in the repo rather than hidden.
+A small thing built around a real constraint: the person deciding is on their phone, so the decision has to be one tap and the audit trail has to survive it.
 
 </td>
 <td width="50%" valign="top">
