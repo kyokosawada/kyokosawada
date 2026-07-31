@@ -10,7 +10,7 @@
 └──────────────────────────────────────────────────────────────┘
 ```
 
-[![Portfolio](https://img.shields.io/badge/portfolio-portfolio--apa.vercel.app-14B8A6?style=for-the-badge&logoColor=white)](https://portfolio-apa.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/portfolio-portfolio--apa.vercel.app-14B8A6?style=for-the-badge&logoColor=white)](https://apa-dev.netlify.app/)
 [![Email](https://img.shields.io/badge/email-giusippi.apaii@gmail.com-0f766e?style=for-the-badge&logoColor=white)](mailto:giusippi.apaii@gmail.com)
 
 </div>
