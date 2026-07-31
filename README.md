@@ -11,7 +11,7 @@
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
 <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
 
-<a href="https://portfolio-apa.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-14B8A6?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://apa-dev.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-apa--dev.netlify.app-14B8A6?style=flat-square&logo=netlify&logoColor=white" alt="Portfolio" /></a>
 <a href="mailto:giusippi.apaii@gmail.com"><img src="https://img.shields.io/badge/Email-0f766e?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 <img src="https://img.shields.io/badge/Manila,%20PH-1f2937?style=flat-square&logo=googlemaps&logoColor=14B8A6" alt="Manila, Philippines" />
 
@@ -19,9 +19,13 @@
 
 ---
 
-I don't type most of the code I ship any more. I specify it, supervise it, and reject it when it's wrong.
+**Models will keep getting better.** That is the safest assumption in this field - and it is also the one thing you have no control over and gain no advantage from, because everyone gets the same upgrade on the same day.
 
-That is a different skill from writing it, and it has its own failure modes. The bottleneck has moved: it is no longer how fast you produce code, it is **how precisely you can describe what you want and how quickly you can tell whether you got it.** Everything I've learned in the last six months is about closing that second gap.
+What does not arrive with the next release is the scaffolding around it: the specification precise enough to act on, the isolation that makes a wrong attempt cheap, the verification that catches a confident wrong answer, and the judgement about what "wrong" even means here.
+
+**A stronger model does not rescue a missing harness. It makes the wrong answers more convincing.**
+
+So I don't type most of the code I ship any more. I specify it, supervise it, and reject it when it's wrong - and that is a different skill from writing it, with its own failure modes.
 
 ## What working this way actually takes
 
