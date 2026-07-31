@@ -131,13 +131,6 @@ Socket Mode, so it holds a live connection rather than polling for work.
 
 <br />
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kyokosawada&show_icons=true&hide_border=true&count_private=true&bg_color=0d1117&title_color=14B8A6&text_color=8b949e&icon_color=14B8A6&hide=issues" alt="" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kyokosawada&layout=compact&hide_border=true&langs_count=6&bg_color=0d1117&title_color=14B8A6&text_color=8b949e" alt="" height="150" />
-</div>
-
-<br />
-
 <p align="center">
   <sub>BS Computer Science, De La Salle University · Currently building lead-management and local-SEO automation</sub>
 </p>
