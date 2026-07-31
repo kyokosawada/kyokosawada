@@ -2,7 +2,7 @@
 
 **AI-forward engineer.** Retrieval, agent workflows, and the reliability work that makes them trustworthy.
 
-[Portfolio](https://portfolio-apa.vercel.app/) · [Email](mailto:giusippi.apaii@gmail.com) · Manila, Philippines
+[Portfolio](https://apa-dev.netlify.app/) · [Email](mailto:giusippi.apaii@gmail.com) · Manila, Philippines
 
 ---
 
