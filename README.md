@@ -1,139 +1,71 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f766e,100:14b8a6&height=190&section=header&text=Giusippi%20Apa&fontSize=52&fontColor=e6fffb&fontAlignY=36&desc=AI-forward%20engineer%20%C2%B7%20agents,%20retrieval%20and%20the%20systems%20that%20keep%20them%20honest&descSize=15&descAlignY=57" alt="" width="100%" />
+<div align="center">
 
-<p align="center">
-  <a href="https://apa-dev.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-portfolio--apa.vercel.app-14B8A6?style=flat-square&logo=netlify&logoColor=white" alt="Portfolio" /></a>
-  <a href="mailto:giusippi.apaii@gmail.com"><img src="https://img.shields.io/badge/Email-giusippi.apaii%40gmail.com-0f766e?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Manila-Philippines-1f2937?style=flat-square&logo=googlemaps&logoColor=14B8A6" alt="Manila, Philippines" />
-</p>
+# Giusippi Apa
 
-<br />
+### The harness is the job now
 
-I build software **with** agents, and I build the systems that keep them honest.
+<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
 
-Most of my work now sits in one place: getting language models to do real work reliably, and proving it when they don't. Day to day that means production systems where a model is one component among validators, retries, review queues and reconciliation - not the whole answer. The interesting engineering is almost never the prompt. It is what happens when the output is wrong, stale, or unavailable, and how anyone finds out.
+<a href="https://apa-dev.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-apa--dev.netlify.app-14B8A6?style=flat-square&logo=netlify&logoColor=white" alt="Portfolio" /></a>
+<a href="mailto:giusippi.apaii@gmail.com"><img src="https://img.shields.io/badge/Email-0f766e?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+<img src="https://img.shields.io/badge/Manila,%20PH-1f2937?style=flat-square&logo=googlemaps&logoColor=14B8A6" alt="Manila, Philippines" />
 
-<br />
+</div>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+---
 
-### Agents, supervised
+**Models will keep getting better.** That is the safest assumption in this field - and it is also the one thing you have no control over and gain no advantage from, because everyone gets the same upgrade on the same day.
 
-Claude Code has been my daily driver since **January 2026** - not a demo, it is how the work gets written, reviewed and shipped.
+What does not arrive with the next release is the scaffolding around it: the specification precise enough to act on, the isolation that makes a wrong attempt cheap, the verification that catches a confident wrong answer, and the judgement about what "wrong" even means here.
 
-Isolated branches, one task at a time, an explicit review pass, and my own read before anything lands. Speed is not the interesting part; knowing what was actually changed is.
+**A stronger model does not rescue a missing harness. It makes the wrong answers more convincing.**
 
-</td>
-<td width="50%" valign="top">
+So I don't type most of the code I ship any more. I specify it, supervise it, and reject it when it's wrong - and that is a different skill from writing it, with its own failure modes.
 
-### Grounded, or silent
+## What working this way actually takes
 
-If a system cannot cite the source it answered from, it should decline.
+**A specification an agent cannot misread.** Vague instructions do not produce vague code - they produce confident, plausible, wrong code, which is far more expensive. Most of my thinking time now goes into the brief, not the implementation.
 
-I build the decline path first. An assistant that answers everything is indistinguishable from one that answers nothing correctly - and that failure is silent, which makes it the expensive kind.
+**Isolation, so a bad run costs nothing.** I run **ten parallel worktrees** on my main project. Each task is quarantined; a wrong turn is deleted rather than untangled. Cheap disposal is what makes ambitious attempts affordable.
 
-</td>
-</tr>
-</table>
+**Review that starts from "this is wrong".** The failure mode of generated code is that it looks finished. It compiles, it reads well, the tests pass - and it solved a slightly different problem. Reading it as an adversary is the only thing that catches that.
 
-<br />
+**Tests as the contract, written first.** Not for orthodoxy. When an agent writes the implementation, the test is the only artifact that encodes what you actually asked for, and the only thing that survives the next rewrite.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:0f766e,100:14b8a6&height=3&section=header" alt="" width="100%" />
+## Where the same thinking shows up in what I build
 
-## Selected work
+The systems worth building have the same shape as the workflow: **assume the model will be wrong, and design for the moment it is.**
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**UpRank** &nbsp;`current work` &nbsp;`private` — local-SEO and lead-management platform, **~2,280 commits over six months**, ~30 scheduled jobs in production. The generated-content pipeline validates before publishing, feeds the rejection reason back into the retry, holds anything still failing for a person instead of shipping it, and reconciles daily against what actually happened.
 
-#### UpRank &nbsp;<sub>current work · private</sub>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+**[rag-coach](https://github.com/kyokosawada/rag-coach)** — retrieval-grounded assistant that **refuses questions outside its corpus** rather than guessing. The refusal is the feature: an assistant that answers everything is indistinguishable from one that answers nothing correctly, and that failure is silent.
 
-Local-SEO and lead-management platform. **~30 scheduled jobs in production** across operations, marketing and reporting.
+**[gemini-slack-assistant](https://github.com/kyokosawada/gemini-slack-assistant)** — an agent that reasons over a request and then *acts*, against Gmail and Calendar from Slack, over a live connection rather than polling.
 
-The part I'd want to talk about is the generated content pipeline: validators reject a bad draft, the retry carries the reason for the rejection back into the next attempt, anything still failing is held for a human instead of published, and a daily reconcile records what actually happened rather than what we assumed.
+**[lead-approval-bot](https://github.com/kyokosawada/lead-approval-bot)** — an inbound lead becomes an Approve / Deny card in Slack; the decision sends the reply email. One tap, because the person deciding is on their phone.
 
-</td>
-<td width="50%" valign="top">
+## What I don't think
 
-#### [rag-coach](https://github.com/kyokosawada/rag-coach)
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+That this makes engineers unnecessary, or that any of it is close to unattended. Everything above exists because the output cannot be trusted by default. The judgement about *what to build*, *what counts as wrong*, and *what to do when it is* has not moved anywhere - it has just become the whole job.
 
-Retrieval-grounded assistant that **refuses questions outside its corpus** rather than guessing at them.
+---
 
-The refusal is the feature. Most of the work went into the boundary - deciding when the retrieved context genuinely supports an answer and when it only looks like it does.
+<div align="center">
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [lead-approval-bot](https://github.com/kyokosawada/lead-approval-bot)
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-
-An inbound lead becomes an Approve / Deny card in Slack, and the decision sends the reply email.
-
-A small thing built around a real constraint: the person deciding is on their phone, so the decision has to be one tap and the audit trail has to survive it.
-
-</td>
-<td width="50%" valign="top">
-
-#### [gemini-slack-assistant](https://github.com/kyokosawada/gemini-slack-assistant)
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-
-A chat-driven agent that reasons over a request and then *acts* - reading and sending against Gmail and Calendar, from Slack.
-
-Socket Mode, so it holds a live connection rather than polling for work.
-
-</td>
-</tr>
-</table>
-
-<br />
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:0f766e,100:14b8a6&height=3&section=header" alt="" width="100%" />
-
-## Stack
-
-**Working in**
-
-<p>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-</p>
-
-**Models and tooling**
-
-<p>
-<img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
-<img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
-<img src="https://img.shields.io/badge/Retrieval%20pipelines-0f766e?style=flat-square" alt="Retrieval pipelines" />
-<img src="https://img.shields.io/badge/Scheduled%20workers-0f766e?style=flat-square" alt="Scheduled workers" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-</p>
-
-**Also shipped**
-
-<p>
+**Also shipped** &nbsp;
 <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" />
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
 <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular" />
-</p>
 
 <br />
 
-<p align="center">
-  <sub>BS Computer Science, De La Salle University · Currently building lead-management and local-SEO automation</sub>
-</p>
+<sub>Claude Code as a daily driver since January 2026 · BS Computer Science, De La Salle University</sub>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,50:0f766e,100:0d1117&height=110&section=footer" alt="" width="100%" />
+</div>
