@@ -6,7 +6,7 @@
 
 Retrieval, agent workflows, and the reliability work that makes them trustworthy
 
-<a href="https://portfolio-apa.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-14B8A6?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://apa-dev.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-14B8A6?style=flat-square&logo=netlify&logoColor=white" alt="Portfolio" /></a>
 <a href="mailto:giusippi.apaii@gmail.com"><img src="https://img.shields.io/badge/Email-0f766e?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 
 </div>
