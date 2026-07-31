@@ -9,7 +9,7 @@
 
 <br />
 
-<a href="https://portfolio-apa.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-14B8A6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://apa-dev.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-14B8A6?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" /></a>
 <a href="mailto:giusippi.apaii@gmail.com"><img src="https://img.shields.io/badge/Email-0f766e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <img src="https://img.shields.io/badge/Manila,%20PH-1f2937?style=for-the-badge&logo=googlemaps&logoColor=14B8A6" alt="Manila, Philippines" />
 
